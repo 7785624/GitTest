@@ -1,0 +1,21 @@
+import java.util.*;
+public class Aa01 {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+	String input = sc.nextLine();
+	int bus = 2500;	
+	int age = Integer.parseInt(input);
+	if(age<=3) {
+		System.out.println("ÇÒÀÎÀ² 100%");
+			}
+		else if(age<=13) {
+				System.out.println("ÇÒÀÎ·ü 50%");
+			}else if(age<=19) {
+				System.out.println("ÇÒÀÎ·ü 25%");
+			}else if(age<=64) {
+				System.out.println("ÇÒÀÎ·ü 0%");
+			}
+		
+	}
+	}

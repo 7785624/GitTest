@@ -1,0 +1,16 @@
+import java.util.*;
+public class Ex4 {
+public static void main(String[] args) {
+int min;
+int temp;
+int[] arr = {3,5,6,7,9};
+
+for(int i =0; i<arr.length-1; i++) { 
+	min=i;
+	System.out.println("1È¸Àü"+Arrays.toString(arr));
+	for(int j=0; i<arr.length; j++) {
+		
+	}
+}
+}
+}

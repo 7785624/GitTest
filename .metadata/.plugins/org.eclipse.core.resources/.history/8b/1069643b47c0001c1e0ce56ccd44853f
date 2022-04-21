@@ -1,0 +1,31 @@
+import java.util.*;
+public class Aa01 {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+	String input = sc.nextLine();
+	int bus = 2500;	
+	double sale=25;
+	int age = Integer.parseInt(input);
+	if(age<=3) {
+		System.out.println("할인율 100%");
+			}
+		else if(age<=13) {
+				System.out.println("할인율 50%");
+				System.out.println(bus/2);
+			}else if(age<=19) {
+				System.out.println("할인율 25%");
+				double M3 = sale*0.01;
+				System.out.println(bus*M3);
+			}else if(age<=64) {
+				System.out.println("할인율 0%");
+				System.out.println(bus);
+			}	
+			else if (age<=65){
+			System.out.println("할인율 100%");
+			System.out.println("무료");
+			}	
+			
+		
+	}
+	}

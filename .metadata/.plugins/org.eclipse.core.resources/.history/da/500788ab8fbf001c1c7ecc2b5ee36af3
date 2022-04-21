@@ -1,0 +1,96 @@
+import java.util.Arrays;
+
+//> 좌변이크면 트루 <작으면 트루 >=크거나 같으면 <=작거나같으면
+public class Vv3 {
+
+	public static void main(String[] args) {
+		int[] numArr =new int[10];//방 10개
+		
+		//배열안에 0~9까지 랜덤수 배열길이가 10이니까 
+		for(int i=0; i<numArr.length; i++) {
+			System.out.println(numArr[i]=(int)(Math.random()*10));
+		}
+		System.out.println();
+		//numArr-1만큼 반복?
+		for(int i =0; i<numArr.length-1; i++) {
+		//changed에 펄스값입력
+			boolean changed = false;
+			//num[j]가 num[j+i]보다 크면 두수를 교환라고 이를 배열크기 -i-1만큼반복..
+			for(int j=0; j<numArr.length-1-i; j++) {
+				if(numArr[j]>numArr[j+1]) {//왼쪽의값이크면 서로 바꾼다
+					int temp = numArr[j];
+				numArr[j]=numArr[j+1];
+				numArr[j+1]=temp;
+				//changed값을 트루로
+				changed=true;
+				}
+			}//
+			if(!changed)break;
+			//numArr에입력된 배열을 0부터 numArr까지출력
+			for(int k=0; k<numArr.length; k++)
+				System.out.println(numArr[k]);
+			System.out.println();
+		}
+			
+	}
+	}
+//		int[] code = {-4, -1, 3, 6, 11 };//배열길이 5
+//		int[] arr = new int[10];
+//		
+//		for(int i=0; i<arr.length; i++) {//10번회전 arr가 10개니까
+//			int tmp = (int)(Math.random()*code.length);//배열길이가 5니까 code 배열0~4까지의 랜덤
+//			arr[i]=code[tmp];//arr배열에 code배열의0~4까지의랜덤숫자를 집어넣기
+//		
+//		}
+//		System.out.println(Arrays.toString(arr));
+//		
+	
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		//45개 방 만듬
+//		int ball[]=new int [45];
+//		// 각 방에다 1~45저장
+//		for(int i=0; i<ball.length; i++)
+//			ball[i]=i+1;
+//		
+//		//값 섞을때 변수
+//		int tmp =0;
+//		int num =0;
+//		
+//		//6번째에서 섞기??
+//		for(int i=0; i<6; i++) {
+//			num=(int)(Math.random()*45);
+		
+		
+				
+			
+		
+		
+		
+		
+		
+		
+		
+		
+//		int sum=0; //총점
+//		float average=0f;//평균
+//		//점수 배열
+//		int[]score= {100,88,100,100,90};
+//		//i가 0이고 i가 
+//		for(int i = 0; i<score.length; i++) {
+//			sum+=score[i];
+//		}
+//average=sum/(float)score.length;
+//System.out.println("총점 : " + sum);
+//System.out.println("평균 : " + average);
+	
+
+

@@ -1,0 +1,13 @@
+import java.util.*;
+public class Aa01 {
+
+	public static void main(String[] args) {
+	int bus = 2500;
+	int age = 3;
+	if(age>=3)
+		System.out.println("«“¿Œ¿≤100%");
+	
+
+	}
+
+}

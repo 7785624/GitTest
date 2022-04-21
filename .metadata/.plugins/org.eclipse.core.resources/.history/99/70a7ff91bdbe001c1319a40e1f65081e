@@ -1,0 +1,27 @@
+import java.io.FileInputStream;
+import java.util.Scanner;
+public class main {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		File file = new File("data/datal.txt");
+		
+		FileInputStream src = new FileInputStream(file);
+		
+		Scanner sc = new Scanner(src);
+		
+		while(sc.hasNext()) {
+			String tmp = sc.next();///데이터 하나하나 읽어오는 역할
+			System.out.printf("%s " , tmp );
+			count++;
+
+		}
+		System.out.println("count :" + count);
+
+		//sc.close();
+		//src.close();
+		
+		int[] nums = new int[count];
+	}
+
+}

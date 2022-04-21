@@ -1,0 +1,40 @@
+//> 좌변이크면 트루 <작으면 트루 >=크거나 같으면 <=작거나같으면
+public class Vv3 {
+
+	public static void main(String[] args) {
+		int ball[]=new int [45];
+		
+		for(int i=0; i<ball.length; i++)
+			ball[i]=i+1;
+		
+		
+		int tmp =0;
+		int num =0;
+		
+		for(int i=0; i<6; i++)
+			if(int)(Math.random()*45);
+				int tmp = ball[i];
+				
+			
+		
+		
+		
+		
+		
+		
+		
+		
+//		int sum=0; //총점
+//		float average=0f;//평균
+//		//점수 배열
+//		int[]score= {100,88,100,100,90};
+//		//i가 0이고 i가 
+//		for(int i = 0; i<score.length; i++) {
+//			sum+=score[i];
+//		}
+//average=sum/(float)score.length;
+//System.out.println("총점 : " + sum);
+//System.out.println("평균 : " + average);
+	}
+
+}

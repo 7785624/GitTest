@@ -1,0 +1,9 @@
+import java.util.*;
+public class Vv01 {
+	static Vv01 vv01 = new Vv01();
+	public static void main(String[] args) {
+		
+
+	}
+
+}
